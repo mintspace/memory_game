@@ -1,0 +1,54 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+#game div {
+	background-color: rgb(236, 236, 236);
+	width: 15%;
+	height: 200px;
+	margin: 10px;
+	display: inline-block;
+}
+
+#game div:hover {
+	box-shadow: 0 0 15px rgb(211, 211, 211);
+}
+
+.pause {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	z-index: 1000;
+	opacity: 0;
+}
+
+button {
+	width: 200px;
+	border: none;
+	outline: none;
+	height: 60px;
+	font-size: 18px;
+	background-color: black;
+	color: white;
+}
+
+button:hover {
+	background-color: #3CFFA3;
+	color: black;
+}
+
+button:active {
+	background-color: #3cffa4cb;
+	color: black;
+}
+
+#btnRestart {
+	display: block;
+	position: absolute;
+	top: 167px;
+	left: 305px;
+}
